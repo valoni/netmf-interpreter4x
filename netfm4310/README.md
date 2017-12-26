@@ -10,10 +10,10 @@
 
 Nucleo STM32F411RET6 Pinout:
 ### Arduino Headers 
-![alt text](https://github.com/valoni/netmf-interpreter/blob/dev/Solutions/STM32F411NUCLEO/NUCLEO.STM32F411RET6.Arduino.Headers.png "Arduino Headers")
+![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/NucleoSTM32F411Ret6/nucleo_f411re_arduino_netfm4310_400.png "Arduino Headers")
 
 ### Morpho Headers 
-![alt text]( https://github.com/valoni/netmf-interpreter/blob/dev/Solutions/STM32F411NUCLEO/NUCLEO.STM32F411RET6.Morpho.Headers.png "Morpho Headers")
+![alt text]( https://github.com/valoni/netmf-interpreter4x/blob/master/NucleoSTM32F411Ret6/nucleo_f411re_morpho_netfm4310_4400.png "Morpho Headers")
 
 ### Net Microframework 4.3.1.0
 
