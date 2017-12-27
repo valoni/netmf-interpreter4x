@@ -1,4 +1,4 @@
-### .NET Micro Framework 4.3.1.0 Ports for Nucleo STM32F411RET6 
+### .NET Micro Framework Ports for Nucleo STM32F411RET6 
 
 |Hardware Info| Description|
 |------|------|
@@ -43,6 +43,13 @@ PA0,PA1,PA5,PA6,PA8,PA9,PA10,PA11,PA15,PB3,PB4,PB5,PB6,PB7,PB8,PB9,PB10,PC6,PC7,
 |------|------|------|
 | / | PB8  | PB9 |
 
+
+### DFU MODE 
+![alt text]( https://github.com/valoni/netmf-interpreter4x/blob/master/NucleoSTM32F411Ret6/NUCLEO.STM32F411RET6.Morpho.Headers-DFU.MODE.png "DFU MODE")
+
+To Enter on DFU Mode you should connect 3.3V with Boot0 Pin (see RED Square)
+
+and to upload firmware with DfUse Demonstration (App from ST-LINK)
 
 
 PORTER : VALON HOTI
