@@ -17,24 +17,24 @@ namespace STM32F411RE.Hardware
 
 		
         SPI  : SPI1  SPI2  SPI3  SPI4
-		------------------------------
+	------------------------------
         SCLK : PA5   PB13  PC10  PB13
         MISO : PA6   PB14  PC11  PA11
         MOSI : PA7   PB15  PC12  PA1
 
 		
         I2C
-		--------
+	--------
         SCL PB8 
         SDA PB9
 
 		
         UART : UART1   UART2   UART6 
-		---------------------------
+	---------------------------
         RX   : PA10    PA3     PA12  
         TX   : PA9     PA2     PA11
         CTS  : none    PA0     none
-		RTS  : none    PA1     none
+	RTS  : none    PA1     none
 		
     */
 
@@ -260,8 +260,8 @@ namespace STM32F411RE.Hardware
         public static class SerialPorts
         {
             public const string COM1 = Serial.COM1;
-            public const string COM2 = Serial.COM2;'
-			public const string COM3 = Serial.COM3;
+            public const string COM2 = Serial.COM2;
+	    public const string COM3 = Serial.COM3;
         }
 
         public static class BaudRates
@@ -286,8 +286,8 @@ namespace STM32F411RE.Hardware
         {
             public const SPI.SPI_module SPI1 = SPI.SPI_module.SPI1;
             public const SPI.SPI_module SPI2 = SPI.SPI_module.SPI2;
-			public const SPI.SPI_module SPI3 = SPI.SPI_module.SPI3;
-			public const SPI.SPI_module SPI4 = SPI.SPI_module.SPI4;
+	    public const SPI.SPI_module SPI3 = SPI.SPI_module.SPI3;
+	    public const SPI.SPI_module SPI4 = SPI.SPI_module.SPI4;
         }
 
  }
