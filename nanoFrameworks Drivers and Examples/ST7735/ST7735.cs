@@ -42,7 +42,7 @@ namespace nanoFramework.Driver
         public const int Height = 128;
 
         /// <summary>
-        /// Constructor of DisplayN18
+        /// Constructor of Display ST7735
         /// </summary>
         /// <param name="resetPin">Reset Pin ST7735</param>
         /// <param name="backlightPin">BackLight Pin ST7735</param>
