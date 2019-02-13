@@ -1,4 +1,4 @@
-### .NET Micro Framework Ports for Nucleo STM32F411RET6 
+### ST7735 Driver with Nucleo STM32F411RET6 Pins Class 
 
 |No| ST7735 Pin|Nucleo Pin|
 |------|-------|------|
