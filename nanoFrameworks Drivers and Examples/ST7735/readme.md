@@ -1,6 +1,6 @@
 ### .NET Micro Framework Ports for Nucleo STM32F411RET6 
 
-|No| ST7735 Pin||Nucleo Pin|
+|No| ST7735 Pin|Nucleo Pin|
 |------|-------|------|
 |1|LED   |D7     |
 |2|SCK   |SPI2SCK |
