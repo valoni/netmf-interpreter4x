@@ -31,16 +31,17 @@ https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 |SDIO_D0 | PC8  |
 |SDIO_D1 | PC9  |
 |SDIO_D2 | PC10 |
-|SDIO_D3 | GND  |
-|SDIO_CMD| PC11 |
-|SDIO_SW | PC13 |
+|SDIO_D3 | PC11 |
 |SDIO_CLK| PC12 |
+|SDIO_SW | PC13 |
+|SDIO_CMD| PD2  |
+
 
 |MMA7660| Description|
 |-------|------|
 |MMA_SDA| PA7  |
 |MMA_SCL| PA6  |
-|MMA_SW | PA6  |
+|MMA_SW | PA5  |
 
 
 ------------------------------------------------------------------------------------------------------------------------------------
