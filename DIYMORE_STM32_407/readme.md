@@ -20,7 +20,7 @@ Schema for Pinout:
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/pinout.jpg "Pinout")
 
 ### DFU MODE 
-![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/NucleoSTM32F411Ret6/nucleo_f411re_arduino_netfm4310_400.png "Arduino Headers")
+![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/DFU_Mode.jpg "DFU Mode")
 
 ### OTG MODE 
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/NucleoSTM32F411Ret6/nucleo_f411re_arduino_netfm4310_400.png "Arduino Headers")
