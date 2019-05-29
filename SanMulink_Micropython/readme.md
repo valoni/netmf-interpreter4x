@@ -11,11 +11,11 @@
 |------|------|
 |Power LED| LED1, +3.3V |
 |Reset button| K2, NRST, active low |
-|User LED1| LED1, PA10 |
-|User LED2| LED2, PA11 |
-|User LED3| LED2, PA12 |
-|User LED4| LED2, PA13 |
-|User button|  PD15, active low |
+|User LED1| LED1, PA8  |
+|User LED2| LED2, PA10 |
+|User LED3| LED3, PC4  |
+|User LED4| LED4, PC5  |
+|User button|  K1, active low |
 
 https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 
@@ -27,25 +27,33 @@ https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 |GND   | GND |
 
 |SD CARD| Board|
-|------|------|
-|VCC   | 3V  |
-|GND   | GND |
-|D0    | PA11|
-|D1    | GND |
-|D2    | GND |
-|D3    | GND |
-|CMD   | GND |
+|--------|------|
+|SDIO_D0 | PC8  |
+|SDIO_D1 | PC9  |
+|SDIO_D2 | PC10 |
+|SDIO_D3 | GND  |
+|SDIO_CMD| PC11 |
+|SDIO_SW | PC13 |
+|SDIO_CLK| PC12 |
 
+|MMA7660| Description|
+|-------|------|
+|MMA_SDA| PA7  |
+|MMA_SCL| PA6  |
+|MMA_SW | PA6  |
+
+
+------------------------------------------------------------------------------------------------------------------------------------
 Schema for Pinout:
 ### Schema 
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/SanMulink_Micropython/SanMulink_Schema.png "Schema")
-
+------------------------------------------------------------------------------------------------------------------------------------
 ### Boards Pins
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/SanMulink_Micropython/BoardPins.jpg "Pinout")
-
+------------------------------------------------------------------------------------------------------------------------------------
 ### DFU MODE 
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/SanMulink_Micropython/DFU_Mode.jpg "DFU Mode")
-
+------------------------------------------------------------------------------------------------------------------------------------
 
 PORTER : VALON HOTI
 Contact : valon.hoti@gmail.com 
