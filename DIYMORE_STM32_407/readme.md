@@ -12,6 +12,13 @@
 
 https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 
+|USB OTG| Description|
+|------|------|
+|VCC   | 5V  |
+|DP+   | PA12|
+|DP-   | PA11|
+|GND   | GND |
+
 Schema for Pinout:
 ### Schema 
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/DIY-More-STM32F407VGT6.png "Schema")
@@ -23,7 +30,7 @@ Schema for Pinout:
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/DFU_Mode.jpg "DFU Mode")
 
 ### OTG MODE 
-![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/NucleoSTM32F411Ret6/nucleo_f411re_arduino_netfm4310_400.png "Arduino Headers")
+![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/OTG_MODE.jpg "OTG Mode")
 
 PORTER : VALON HOTI
 Contact : valon.hoti@gmail.com 
