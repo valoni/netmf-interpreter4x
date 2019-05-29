@@ -44,7 +44,7 @@ Schema for Pinout:
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/SanMulink_Micropython/BoardPins.jpg "Pinout")
 
 ### DFU MODE 
-![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/DFU_Mode.jpg "DFU Mode")
+![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/SanMulink_Micropython/DFU_Mode.jpg "DFU Mode")
 
 
 PORTER : VALON HOTI
