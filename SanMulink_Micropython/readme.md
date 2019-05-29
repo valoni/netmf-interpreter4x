@@ -20,7 +20,6 @@
 |User LED4| PC5  |
 |User button| K2, PA13, active low |
 
-https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 
 |USB OTG|  Board Pins|
 |------|------|
