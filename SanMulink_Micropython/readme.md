@@ -7,15 +7,18 @@
 |FLASH| 1024 KB |
 |RAM| 196 KB |
 
-|Working Info| Description|
+|Hardware Working Info| Description|
 |------|------|
 |Power LED| LED1, +3.3V |
-|Reset button| K2, NRST, active low |
+|Reset button| K1, NRST, active low |
+
+|User Working Info| Description|
+|------|------|
 |User LED1| LED1, PA8  |
 |User LED2| LED2, PA10 |
 |User LED3| LED3, PC4  |
 |User LED4| LED4, PC5  |
-|User button|  K1, active low |
+|User button| K2, PA13,active low |
 
 https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 
