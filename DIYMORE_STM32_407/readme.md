@@ -24,11 +24,17 @@ Schema for Pinout:
 ### Schema 
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/DIY-More-STM32F407VGT6.png "Schema")
 
+
+
 ### Boards Pins
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/pinout.jpg "Pinout")
 
+
+
 ### DFU MODE 
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/DFU_Mode.jpg "DFU Mode")
+
+
 
 ### OTG MODE 
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/OTG_MODE.jpg "OTG Mode")
