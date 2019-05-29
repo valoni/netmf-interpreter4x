@@ -3,6 +3,7 @@
 |Hardware Info| Description|
 |------|------|
 |Board|Dyi More STM32_407 BlackBoard - 8 Mhz Clock|
+|AKA|STM32F407 Discovery Lite|
 |FLASH| 1024 KB |
 |RAM| 196 KB |
 |Power LED| LED1, +3.3V |
