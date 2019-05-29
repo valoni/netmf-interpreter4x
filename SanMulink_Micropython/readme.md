@@ -11,7 +11,6 @@
 |------|------|
 |Power LED| LED1, +3.3V |
 |Reset button| K2, NRST, active low |
-
 |User LED1| LED1, PA10 |
 |User LED2| LED2, PA11 |
 |User LED3| LED2, PA12 |
@@ -39,7 +38,7 @@ https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 
 Schema for Pinout:
 ### Schema 
-![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/DIY-More-STM32F407VGT6.png "Schema")
+![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/SanMulink_Micropython/SanMulink_Schema.png "Schema")
 
 ### Boards Pins
 ![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/DIYMORE_STM32_407/pinout.jpg "Pinout")
