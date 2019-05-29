@@ -10,6 +10,7 @@
 |Reset button| K2, NRST, active low |
 |User button| K1, PD15, active low |
 
+https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 
 Schema for Pinout:
 ### Schema 
