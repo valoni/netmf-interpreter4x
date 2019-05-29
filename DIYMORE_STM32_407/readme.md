@@ -8,7 +8,7 @@
 |Power LED| LED1, +3.3V |
 |User LED| LED2, PE0, sink |
 |Reset button| K2, NRST, active low |
-|User button| PD15, active low |
+|User button| K1, PD15, active low |
 
 
 Schema for Pinout:
