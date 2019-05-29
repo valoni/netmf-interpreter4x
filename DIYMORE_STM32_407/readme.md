@@ -1,4 +1,4 @@
-### .Diy More STM32_407 Black Board 
+### Diy More STM32_407 Black Board 
 
 |Hardware Info| Description|
 |------|------|
