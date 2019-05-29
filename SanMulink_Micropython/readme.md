@@ -7,29 +7,29 @@
 |FLASH| 1024 KB |
 |RAM| 196 KB |
 
-|Hardware Working Info| Description|
+|Hardware Working Info| Board Pins|
 |------|------|
 |Power LED| LED1, +3.3V |
 |Reset button| K1, NRST, active low |
 
-|User Working Info| Description|
+|User Working Info| Board Pins|
 |------|------|
-|User LED1| LED1, PA8  |
-|User LED2| LED2, PA10 |
-|User LED3| LED3, PC4  |
-|User LED4| LED4, PC5  |
-|User button| K2, PA13,active low |
+|User LED1| PA8  |
+|User LED2| PA10 |
+|User LED3| PC4  |
+|User LED4| PC5  |
+|User button| K2, PA13, active low |
 
 https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 
-|USB OTG| Description|
+|USB OTG|  Board Pins|
 |------|------|
 |VCC   | 5V  |
 |DP+   | PA12|
 |DP-   | PA11|
 |GND   | GND |
 
-|SD CARD| Board|
+|SD CARD|  Board Pins|
 |--------|------|
 |SDIO_D0 | PC8  |
 |SDIO_D1 | PC9  |
@@ -40,7 +40,7 @@ https://stm32-base.org/boards/STM32F407VGT6-diymore.html
 |SDIO_CMD| PD2  |
 
 
-|MMA7660| Description|
+|MMA7660|  Board Pins|
 |-------|------|
 |MMA_SDA| PA7  |
 |MMA_SCL| PA6  |
