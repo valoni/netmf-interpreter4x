@@ -509,28 +509,7 @@ namespace nf.RDM6300
             return Checksum;
         }
 
-        /// <summary>
-        /// Displays a number with a metric prefix
-        /// </summary>
-        /// <param name="Number">The number</param>
-        /// <param name="BinaryMultiple">If true, will use 1024 as multiplier instead of 1000</param>
-        /// <returns>The number with a metric prefix</returns>
-        /// <remarks>See also: http://en.wikipedia.org/wiki/Metric_prefix </remarks>
-        public static string MetricPrefix(float Number, bool BinaryMultiple = false)
-        {
-            float Multiplier = BinaryMultiple ? 1024 : 1000;
-            if (Number > (Multiplier * Multiplier * Multiplier * Multiplier))
-                return Tools.Round(Number / Multiplier / Multiplier / Multiplier / Multiplier) + "T";
-            if (Number > (Multiplier * Multiplier * Multiplier))
-                return Tools.Round(Number / Multiplier / Multiplier / Multiplier) + "G";
-            if (Number > (Multiplier * Multiplier))
-                return Tools.Round(Number / Multiplier / Multiplier) + "M";
-            if (Number > Multiplier)
-                return Tools.Round(Number / Multiplier) + "k";
-            else
-                return Tools.Round(Number).ToString();
-        }
-
+     
         /// <summary>
         /// Rounds a value to a certain amount of digits
         /// </summary>
@@ -544,20 +523,6 @@ namespace nf.RDM6300
             string Rounded = ((int)(Input * Multiplier)).ToString();
 
             return (Rounded.Substring(0, Rounded.Length - 2) + "." + Rounded.Substring(Rounded.Length - 2)).TrimEnd(new char[] { '0', '.' });
-        }
-
-        /// <summary>
-        /// Converts an integer color code to RGB
-        /// </summary>
-        /// <param name="Color">The integer color (0x000000 to 0xffffff)</param>
-        /// <returns>A new byte[] { Red, Green, Blue }</returns>
-        public static int[] ColorToRgb(int Color)
-        {
-            byte Red = (byte)((Color & 0xff0000) >> 16);
-            byte Green = (byte)((Color & 0xff00) >> 8);
-            byte Blue = (byte)(Color & 0xff);
-
-            return new int[] { Red, Green, Blue };
         }
 
         /// <summary>A generic event handler when receiving a string</summary>
