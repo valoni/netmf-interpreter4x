@@ -1,5 +1,5 @@
 ### Wiring
-![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/nanoFrameworks%20Drivers%20and%20Examples/RDM6300/NUCLEO_RDM6300.png "Nucleo F411 wiring with RDM6300")
+![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/nanoFrameworks%20Drivers%20and%20Examples/DEBUG2UART/DebugToUart.png "Debug 2 Uart")
 
 ### How to use class / Program.cs
 ```csharp
