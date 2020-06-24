@@ -1,5 +1,5 @@
 ### Wiring
-![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/nanoFrameworks%20Drivers%20and%20Examples/AT24Cxx%20Eeprom/AT24Cxx.png "AT24Cxx")
+![alt text](https://github.com/valoni/netmf-interpreter4x/blob/master/nanoFrameworks%20Drivers%20and%20Examples/nf.SDCard/ESP_SDCard.png "SDCARD")
 
 ### How to use class / Program.cs
 ```csharp
