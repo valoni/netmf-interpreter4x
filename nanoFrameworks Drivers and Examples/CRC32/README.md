@@ -31,7 +31,7 @@ namespace TestRC32
             }
 
             Debug.WriteLine("returned result = " + myRes); //need to reverse it 
-            Debug.WriteLine("reversed proper result = "+stringReverseString(myRes)); //do not use it on desktop version
+            Debug.WriteLine("reversed proper result = "+ReverseString(myRes)); //do not use it on desktop version
 
             while (true)
             {
@@ -39,7 +39,7 @@ namespace TestRC32
             }
         }
 
-        public static string stringReverseString(string str)
+        public static string ReverseString(string str)
         {
             char[] chars = str.ToCharArray();
             for (int i = 0, j = str.Length - 1; i < j; i++, j--)
