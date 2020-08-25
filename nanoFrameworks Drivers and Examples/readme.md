@@ -12,3 +12,4 @@ No | Description | Link  | Board  | Device
 6 | AT24Cxx Eeprom I2C|[Eeprom Link](https://github.com/valoni/netmf-interpreter4x/tree/master/nanoFrameworks%20Drivers%20and%20Examples/AT24Cxx%20Eeprom)|Nucleo F411|Eprom Memory
 7 | SDCARD SPI|[SDCARD Link](https://github.com/valoni/netmf-interpreter4x/tree/master/nanoFrameworks%20Drivers%20and%20Examples/nf.SDCard)|ESP32-s|SD Card Reader/Writer
 8 | MFRC522 SPI|[MFRC522 Link](https://github.com/valoni/netmf-interpreter4x/tree/master/nanoFrameworks%20Drivers%20and%20Examples/nf.MFRC522)|ESP32-s|RFID Reader
+8 | CRC32|[CRC32 Link](https://github.com/valoni/netmf-interpreter4x/tree/master/nanoFrameworks%20Drivers%20and%20Examples/nf.MFRC522)|ESP32-s|RFID Reader
